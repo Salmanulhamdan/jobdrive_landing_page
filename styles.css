@@ -1,0 +1,115 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    position: relative;
+    padding: 5rem 0;
+}
+
+.abstract-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f8f9fa 40%, #1d60c4 60%);
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.hero-image-background {
+    position: relative;
+    background-image: url('Design.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    color: #1d60c4;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.register-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.stats-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.stat-item h3 {
+    color: #1d60c4;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.employers-section .section-title {
+    color: #1d60c4;
+    margin-bottom: 2rem;
+}
+
+.highlights-section {
+    background-color: #f8f9fa;
+}
+
+.highlight-list {
+    list-style: none;
+    color: #1d60c4;
+    font-size: 1.2rem;
+}
+
+.process-section .process-steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.process-step p {
+    font-weight: bold;
+    color: #333;
+}
+
+.reserve-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    color: #1d60c4;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    color: #1d60c4;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
