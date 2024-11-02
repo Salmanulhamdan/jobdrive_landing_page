@@ -78,18 +78,6 @@ img {
 
 }
 
-@media (max-width: 768px) { /* Adjust the width as needed for different screen sizes */
-    .banner_section {
-        background-image: url('../images/design.png'); /* Optional: Change to a different image */
-        background-size: 40%; /* Adjust the size for mobile */
-        background-position: left; /* Center the image for better mobile alignment */
-        padding: 0px 15%;
-        
-    }
-}
-
-
-
 .banner_image {
     position: absolute;
     width: 35%;
@@ -99,8 +87,6 @@ img {
     bottom: 0;
     z-index: 0 !important;
 }
-
-
 
 .banner_content {
     margin: 200px 0px;
@@ -165,13 +151,13 @@ img {
 
 
 .register-button {
-    font-size: 24px; /* Increased font size */
+    font-size: 20px;
     font-weight: 500;
     background-color: #003884;
     color: white;
     border-radius: 25px;
-    margin-top: 25px;
-    padding: 15px 90px; /* Adjusted padding */
+    margin-top: 20px;
+    padding: 12px 80px;
     text-decoration: none;
     display: inline-block;
     border: none;
@@ -192,31 +178,6 @@ img {
         background-color: #0055cc; /* Brighter shade */
     }
 }
-
-.register-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400%;
-    height: 400%;
-    background-color: rgba(255, 255, 255, 0.2); /* Lighter overlay color */
-    border-radius: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 0.6s ease;
-}
-
-.register-button:hover::before {
-    transform: translate(-50%, -50%) scale(1); /* Expanding overlay effect */
-}
-
-.register-button:hover {
-    background-color: #002a63; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly enlarges the button */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Increased shadow */
-}
-
-
 
 .middle_section {
 
@@ -243,7 +204,7 @@ img {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #274a84;
 
 
@@ -299,7 +260,7 @@ img {
 }
 
 .left_section {
-    width: 90%;
+    width: 50%;
 
     padding: 3% 7%;
 
@@ -343,7 +304,7 @@ img {
 
 }
 
-
+.right_secction img {}
 
 .footer_section {
     overflow: hidden;
@@ -364,7 +325,7 @@ img {
 
     color: white;
     border-radius: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 8px 20px;
     text-decoration: none;
     display: inline-block;
@@ -616,7 +577,7 @@ table {
         font-size: 22px;
     }
 
-    .banner_bottom {
+    /* .banner_bottom {
         flex-direction: column;
     }
 
@@ -626,7 +587,7 @@ table {
 
     .banner_bottom span {
         font-size: 16px;
-    }
+    } */
 
     .banner_content {
         width: 100%;
@@ -660,18 +621,23 @@ table {
 
     }
 
-    .banner_content_bottom {
+    /* .banner_content_bottom {
         width: 100%;
         justify-content: center;
         margin-top: 24px;
         padding-bottom: 30px;
 
-    }
+    } */
+  
 
     .banner_section {
 
         height: auto;
 
+    }
+    .banner_section {
+        background-image: none
+        
     }
 
     .footer_section {
@@ -706,11 +672,4 @@ table {
     height: 60px;
     object-fit: cover;
     overflow: hidden;
-}
-
-
-@media (min-width: 1024px) { 
-    .meet_employer_section {
-        padding: 50px 20%;
-    }
 }
